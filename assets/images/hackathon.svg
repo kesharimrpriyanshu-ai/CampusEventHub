@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <rect width="600" height="360" fill="#1e3a8a" />
+  <circle cx="510" cy="70" r="90" fill="#2563eb" opacity="0.35" />
+  <rect x="60" y="75" width="480" height="210" rx="16" fill="#0f172a" opacity="0.55" />
+  <text x="300" y="165" text-anchor="middle" fill="#93c5fd" font-family="Segoe UI, sans-serif" font-size="44" font-weight="700">&lt;/&gt;</text>
+  <text x="300" y="220" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">CODING HACKATHON</text>
+  <text x="300" y="252" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, sans-serif" font-size="16">Technical Event • CSE Coding Club</text>
+</svg>

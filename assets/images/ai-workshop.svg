@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <rect width="600" height="360" fill="#1d4ed8" />
+  <circle cx="110" cy="80" r="70" fill="#60a5fa" opacity="0.25" />
+  <circle cx="490" cy="280" r="85" fill="#93c5fd" opacity="0.2" />
+  <rect x="75" y="80" width="450" height="200" rx="16" fill="#ffffff" opacity="0.14" />
+  <text x="300" y="165" text-anchor="middle" fill="#dbeafe" font-family="Segoe UI, sans-serif" font-size="44" font-weight="700">AI / ML</text>
+  <text x="300" y="218" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">AI WORKSHOP</text>
+  <text x="300" y="250" text-anchor="middle" fill="#e0f2fe" font-family="Segoe UI, sans-serif" font-size="16">Hands-On Learning Session</text>
+</svg>

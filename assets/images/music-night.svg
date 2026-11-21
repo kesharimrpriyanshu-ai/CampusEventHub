@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <rect width="600" height="360" fill="#581c87" />
+  <circle cx="110" cy="80" r="80" fill="#9333ea" opacity="0.35" />
+  <circle cx="490" cy="270" r="90" fill="#c084fc" opacity="0.25" />
+  <rect x="70" y="80" width="460" height="200" rx="16" fill="#2e1065" opacity="0.45" />
+  <text x="300" y="165" text-anchor="middle" fill="#f3e8ff" font-family="Segoe UI, sans-serif" font-size="42" font-weight="700">♫ LIVE UNPLUGGED ♫</text>
+  <text x="300" y="220" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">MUSIC NIGHT</text>
+  <text x="300" y="252" text-anchor="middle" fill="#e9d5ff" font-family="Segoe UI, sans-serif" font-size="16">Open Air Amphitheatre</text>
+</svg>

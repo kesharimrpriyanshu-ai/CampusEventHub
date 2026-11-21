@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <rect width="600" height="360" fill="#312e81" />
+  <circle cx="495" cy="285" r="95" fill="#4f46e5" opacity="0.4" />
+  <rect x="70" y="80" width="460" height="200" rx="16" fill="#1e1b4b" opacity="0.45" />
+  <text x="300" y="165" text-anchor="middle" fill="#c7d2fe" font-family="Segoe UI, sans-serif" font-size="38" font-weight="700">INDUSTRY INSIGHTS</text>
+  <text x="300" y="220" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">TECH SEMINAR</text>
+  <text x="300" y="252" text-anchor="middle" fill="#e0e7ff" font-family="Segoe UI, sans-serif" font-size="16">Web, Cloud &amp; Cybersecurity</text>
+</svg>

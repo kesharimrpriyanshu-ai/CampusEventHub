@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Event Hub | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header & Responsive Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Campus <span>Event Hub</span></a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="events.html" class="nav-link">Events</a></li>
+          <li><a href="registration.html" class="nav-link">Register</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <span class="badge">Student Activity Portal</span>
+        <h1>Discover, Explore &amp; Join Campus Events in One Place</h1>
+        <p class="hero-text">
+          Campus Event Hub helps students stay updated on upcoming hackathons, workshops,
+          cultural fests, seminars, and sports meets without scrolling through scattered notices.
+        </p>
+        <div class="hero-actions">
+          <a href="events.html" class="btn btn-primary">Explore Events</a>
+          <a href="registration.html" class="btn btn-outline">Quick Registration</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Use Campus Event Hub?</h2>
+          <p>A clean, centralized student portal built for effortless event discovery.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="info-card">
+            <h3>Centralized Listings</h3>
+            <p>Browse technical, cultural, seminar, workshop, and sports events organized in one clear directory.</p>
+          </article>
+          <article class="info-card">
+            <h3>Instant Search &amp; Filter</h3>
+            <p>Quickly locate events by title, category, or date using fast client-side JavaScript filtering.</p>
+          </article>
+          <article class="info-card">
+            <h3>Simple Demo Registration</h3>
+            <p>Submit validated event registrations and review your saved entries stored locally in your browser.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Upcoming Events -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header section-header-row">
+          <div>
+            <h2>Featured Upcoming Events</h2>
+            <p>Check out some of the highlights happening on campus soon.</p>
+          </div>
+          <a href="events.html" class="btn btn-outline">View All Events</a>
+        </div>
+
+        <!-- Dynamically populated by js/events.js -->
+        <div class="events-grid" id="featured-events"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo footer-logo">Campus <span>Event Hub</span></a>
+        <p class="footer-note">
+          A responsive frontend mini-project for college event discovery and sample registration.
+        </p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="registration.html">Register</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Academic Notice</h4>
+        <p class="footer-note">
+          Built with HTML5, CSS3, and Vanilla JavaScript. Registrations use browser localStorage for demo purposes only.
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="current-year">2026</span> Campus Event Hub. First-Year B.Tech CSE Mini-Project.</p>
+    </div>
+  </footer>
+
+  <script src="js/events.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

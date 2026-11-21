@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Event Hub | Events</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Campus <span>Event Hub</span></a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="events.html" class="nav-link active">Events</a></li>
+          <li><a href="registration.html" class="nav-link">Register</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Banner -->
+    <section class="page-banner">
+      <div class="container">
+        <h1>Upcoming Campus Events</h1>
+        <p>Search by event title, filter by category, or sort to find activities that match your interests.</p>
+      </div>
+    </section>
+
+    <!-- Search & Filter Controls -->
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar">
+          <div class="filter-group search-group">
+            <label for="search-input">Search Events</label>
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Search by title (e.g., Coding, AI, Music)..."
+              autocomplete="off"
+            >
+          </div>
+
+          <div class="filter-group">
+            <label for="category-filter">Category</label>
+            <select id="category-filter">
+              <option value="all">All Categories</option>
+              <option value="Technical">Technical</option>
+              <option value="Workshop">Workshop</option>
+              <option value="Cultural">Cultural</option>
+              <option value="Seminar">Seminar</option>
+              <option value="Sports">Sports</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="sort-select">Sort By</label>
+            <select id="sort-select">
+              <option value="default">Default Order</option>
+              <option value="date-asc">Date (Earliest First)</option>
+              <option value="title-asc">Title (A - Z)</option>
+            </select>
+          </div>
+        </div>
+
+        <p class="results-count" id="results-count">Showing all events</p>
+
+        <!-- Event Cards Container (Populated by js/events.js) -->
+        <div class="events-grid" id="events-grid"></div>
+
+        <!-- Friendly Empty State -->
+        <div class="empty-state hidden" id="no-events-msg">
+          <h3>No events found</h3>
+          <p>We couldn't find any campus events matching your search or filter criteria.</p>
+          <button type="button" class="btn btn-primary" id="reset-filters-btn">Reset Filters</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo footer-logo">Campus <span>Event Hub</span></a>
+        <p class="footer-note">
+          A responsive frontend mini-project for college event discovery and sample registration.
+        </p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="registration.html">Register</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Academic Notice</h4>
+        <p class="footer-note">
+          Built with HTML5, CSS3, and Vanilla JavaScript. Registrations use browser localStorage for demo purposes only.
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="current-year">2026</span> Campus Event Hub. First-Year B.Tech CSE Mini-Project.</p>
+    </div>
+  </footer>
+
+  <script src="js/events.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
